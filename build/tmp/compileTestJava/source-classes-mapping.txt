@@ -1,0 +1,4 @@
+com/kimjinjoo/book/springboot/web/HelloControllerTest.java
+ com.kimjinjoo.book.springboot.web.HelloControllerTest
+com/kimjinjoo/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.kimjinjoo.book.springboot.web.dto.HelloResponseDtoTest
