@@ -1,6 +1,51 @@
 com/kimjinjoo/book/springboot/web/dto/HelloResponseDto.java
  com.kimjinjoo.book.springboot.web.dto.HelloResponseDto
+com/kimjinjoo/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.kimjinjoo.book.springboot.config.auth.dto.OAuthAttributes
+ com.kimjinjoo.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/kimjinjoo/book/springboot/domain/posts/Posts.java
+ com.kimjinjoo.book.springboot.domain.posts.Posts
+ com.kimjinjoo.book.springboot.domain.posts.Posts$PostsBuilder
+com/kimjinjoo/book/springboot/web/dto/PostsUpdateRequestDto.java
+ com.kimjinjoo.book.springboot.web.dto.PostsUpdateRequestDto
+ com.kimjinjoo.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/kimjinjoo/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.kimjinjoo.book.springboot.config.auth.LoginUserArgumentResolver
+com/kimjinjoo/book/springboot/config/auth/LoginUser.java
+ com.kimjinjoo.book.springboot.config.auth.LoginUser
 com/kimjinjoo/book/springboot/Application.java
  com.kimjinjoo.book.springboot.Application
+com/kimjinjoo/book/springboot/web/dto/PostsListResponseDto.java
+ com.kimjinjoo.book.springboot.web.dto.PostsListResponseDto
+com/kimjinjoo/book/springboot/web/dto/PostsResponseDto.java
+ com.kimjinjoo.book.springboot.web.dto.PostsResponseDto
+com/kimjinjoo/book/springboot/config/WebConfig.java
+ com.kimjinjoo.book.springboot.config.WebConfig
+com/kimjinjoo/book/springboot/domain/BaseTimeEntity.java
+ com.kimjinjoo.book.springboot.domain.BaseTimeEntity
+com/kimjinjoo/book/springboot/domain/user/Role.java
+ com.kimjinjoo.book.springboot.domain.user.Role
+com/kimjinjoo/book/springboot/web/PostApiController.java
+ com.kimjinjoo.book.springboot.web.PostApiController
+com/kimjinjoo/book/springboot/config/auth/SecurityConfig.java
+ com.kimjinjoo.book.springboot.config.auth.SecurityConfig
+com/kimjinjoo/book/springboot/web/IndexController.java
+ com.kimjinjoo.book.springboot.web.IndexController
+com/kimjinjoo/book/springboot/domain/user/User.java
+ com.kimjinjoo.book.springboot.domain.user.User
+ com.kimjinjoo.book.springboot.domain.user.User$UserBuilder
+com/kimjinjoo/book/springboot/config/auth/dto/SessionUser.java
+ com.kimjinjoo.book.springboot.config.auth.dto.SessionUser
+com/kimjinjoo/book/springboot/domain/user/UserRepository.java
+ com.kimjinjoo.book.springboot.domain.user.UserRepository
 com/kimjinjoo/book/springboot/web/HelloController.java
  com.kimjinjoo.book.springboot.web.HelloController
+com/kimjinjoo/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.kimjinjoo.book.springboot.config.auth.CustomOAuth2UserService
+com/kimjinjoo/book/springboot/web/dto/PostsSaveRequestDto.java
+ com.kimjinjoo.book.springboot.web.dto.PostsSaveRequestDto
+ com.kimjinjoo.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/kimjinjoo/book/springboot/domain/posts/PostsRepository.java
+ com.kimjinjoo.book.springboot.domain.posts.PostsRepository
+com/kimjinjoo/book/springboot/service/posts/PostsService.java
+ com.kimjinjoo.book.springboot.service.posts.PostsService

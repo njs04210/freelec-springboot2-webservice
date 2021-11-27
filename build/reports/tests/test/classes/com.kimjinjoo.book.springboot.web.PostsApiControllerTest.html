@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PostsApiControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PostsApiControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kimjinjoo.book.springboot.web.html">com.kimjinjoo.book.springboot.web</a> &gt; PostsApiControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.508s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Posts_등록된다()</td>
+<td class="success">0.479s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Posts_수정된다()</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2021-11-28 00:38:02.360  INFO 27749 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kimjinjoo.book.springboot.web.PostsApiControllerTest], using SpringBootContextLoader
+2021-11-28 00:38:02.362  INFO 27749 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kimjinjoo.book.springboot.web.PostsApiControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-28 00:38:02.362  INFO 27749 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kimjinjoo.book.springboot.web.PostsApiControllerTest]: PostsApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-28 00:38:02.365  INFO 27749 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kimjinjoo.book.springboot.Application for test class com.kimjinjoo.book.springboot.web.PostsApiControllerTest
+2021-11-28 00:38:02.369  INFO 27749 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-11-28 00:38:02.371  INFO 27749 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4a2c62a2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@142a4b46, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c18ce26, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7b51c544, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@524191fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1477808b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5405dd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b5a80b6, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@754a3a42, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d119fb8, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2315032a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c3568ce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7889d120, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29b46dd6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@22332799, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@55b74809, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6381834e]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2021-11-28 00:38:02.423  INFO 27749 --- [    Test worker] c.k.b.s.web.PostsApiControllerTest       : Starting PostsApiControllerTest using Java 11.0.11 on gimjinjuui-MacBookPro.local with PID 27749 (started by jinjookim in /Users/jinjookim/Desktop/study/스프링부트와 aws로 혼자 구현하는 웹 서비스/freelec-springboot2-webservice)
+2021-11-28 00:38:02.423  INFO 27749 --- [    Test worker] c.k.b.s.web.PostsApiControllerTest       : No active profile set, falling back to default profiles: default
+2021-11-28 00:38:02.710  INFO 27749 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-28 00:38:02.758  INFO 27749 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2021-11-28 00:38:03.236  INFO 27749 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-11-28 00:38:03.247  INFO 27749 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-28 00:38:03.247  INFO 27749 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-28 00:38:03.352  INFO 27749 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-28 00:38:03.352  INFO 27749 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2021-11-28 00:38:03.405  INFO 27749 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-28 00:38:03.604  INFO 27749 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-28 00:38:03.611  INFO 27749 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-11-28 00:38:03.923  INFO 27749 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-28 00:38:03.975  INFO 27749 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-28 00:38:04.146  INFO 27749 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-28 00:38:04.278  INFO 27749 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-28 00:38:04.930 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : drop table if exists posts CASCADE 
+2021-11-28 00:38:04.931 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : drop table if exists user CASCADE 
+2021-11-28 00:38:04.934 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : create table posts (id bigint generated by default as identity, created_date timestamp, modified_date timestamp, author varchar(255), content TEXT not null, title varchar(500) not null, primary key (id))
+2021-11-28 00:38:04.939 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : create table user (id bigint generated by default as identity, created_date timestamp, modified_date timestamp, email varchar(255) not null, name varchar(255) not null, picture varchar(255), role varchar(255) not null, primary key (id))
+2021-11-28 00:38:04.942  INFO 27749 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-28 00:38:04.951  INFO 27749 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-28 00:38:05.496  WARN 27749 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-28 00:38:05.918  INFO 27749 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e302ca1, org.springframework.security.web.context.SecurityContextPersistenceFilter@50a55b84, org.springframework.security.web.header.HeaderWriterFilter@61c67840, org.springframework.security.web.authentication.logout.LogoutFilter@1eb1056e, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@3635fe6d, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5a284402, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@63c82632, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@700ffbd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73d12565, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b59612a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22c17b06, org.springframework.security.web.session.SessionManagementFilter@2ae5b0a2, org.springframework.security.web.access.ExceptionTranslationFilter@68faf0b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52150309]
+2021-11-28 00:38:06.239  INFO 27749 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-28 00:38:06.508  INFO 27749 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 61576 (http) with context path ''
+2021-11-28 00:38:06.519  INFO 27749 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-11-28 00:38:06.528  INFO 27749 --- [    Test worker] c.k.b.s.web.PostsApiControllerTest       : Started PostsApiControllerTest in 4.152 seconds (JVM running for 7.044)
+2021-11-28 00:38:06.679  INFO 27749 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-11-28 00:38:06.679  INFO 27749 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-28 00:38:06.680  INFO 27749 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-28 00:38:06.869 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : insert into posts (id, created_date, modified_date, author, content, title) values (null, ?, ?, ?, ?, ?)
+2021-11-28 00:38:06.874 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-11-28T00:38:06.845500]
+2021-11-28 00:38:06.878 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-11-28T00:38:06.845500]
+2021-11-28 00:38:06.878 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [kimjinjoo@naver.com]
+2021-11-28 00:38:06.879 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [책내용]
+2021-11-28 00:38:06.879 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [책이름]
+2021-11-28 00:38:06.932 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
+2021-11-28 00:38:07.001 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
+2021-11-28 00:38:07.013 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : delete from posts where id=?
+2021-11-28 00:38:07.014 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2021-11-28 00:38:07.024  INFO 27749 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-11-28 00:38:07.024  INFO 27749 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-28 00:38:07.025  INFO 27749 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-28 00:38:07.025 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : insert into posts (id, created_date, modified_date, author, content, title) values (null, ?, ?, ?, ?, ?)
+2021-11-28 00:38:07.026 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-11-28T00:38:07.025722]
+2021-11-28 00:38:07.026 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-11-28T00:38:07.025722]
+2021-11-28 00:38:07.026 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-11-28 00:38:07.026 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
+2021-11-28 00:38:07.026 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
+2021-11-28 00:38:07.038 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : select posts0_.id as id1_0_0_, posts0_.created_date as created_2_0_0_, posts0_.modified_date as modified3_0_0_, posts0_.author as author4_0_0_, posts0_.content as content5_0_0_, posts0_.title as title6_0_0_ from posts posts0_ where posts0_.id=?
+2021-11-28 00:38:07.038 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2021-11-28 00:38:07.042 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : update posts set created_date=?, modified_date=?, author=?, content=?, title=? where id=?
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-11-28T00:38:07.025722]
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-11-28T00:38:07.041944]
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content2]
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title2]
+2021-11-28 00:38:07.043 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [2]
+2021-11-28 00:38:07.046 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
+2021-11-28 00:38:07.047 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
+2021-11-28 00:38:07.048 DEBUG 27749 --- [    Test worker] org.hibernate.SQL                        : delete from posts where id=?
+2021-11-28 00:38:07.048 TRACE 27749 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at Nov 28, 2021, 12:38:08 AM</p>
+</div>
+</div>
+</body>
+</html>
